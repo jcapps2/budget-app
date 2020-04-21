@@ -1,0 +1,22 @@
+// Sass partial
+
+html {
+    font-size: 62.5%;   // gets us to a base 10 system for calculating rems
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $medium-size;
+}
+
+button {
+    cursor: pointer;
+
+    &:disabled {
+        cursor: default;
+    }
+}
+
+.is-active {
+    font-weight: bold;
+}
