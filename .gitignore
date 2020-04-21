@@ -1,4 +1,4 @@
 node_modules/
 src/tests
 jest.config.json
-playground
+playground/
