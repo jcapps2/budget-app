@@ -3,3 +3,5 @@ src/tests
 jest.config.json
 playground/
 public/dist/
+.env.test
+.env.development
