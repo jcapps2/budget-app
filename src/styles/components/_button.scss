@@ -1,0 +1,21 @@
+// Sass partial
+
+.button {
+    background: $primary-color;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-size: $large-font;
+    font-weight: 300;
+    line-height: 1;
+    padding: $small-size;
+    text-decoration: none;
+
+    &--link {
+        background: none;
+    }
+
+    &--secondary {
+        background: #888;
+    }
+}

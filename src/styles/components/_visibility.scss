@@ -1,0 +1,14 @@
+// Sass partial
+
+.show-for-mobile {
+    @media (min-width: $desktop-breakpoint) {
+        display: none;
+    }
+}
+
+// subtract .01rem so that rules don't take effect at the same time
+.show-for-desktop {
+    @media (max-width: $desktop-breakpoint - .01rem) {
+        display: none;
+    }
+}

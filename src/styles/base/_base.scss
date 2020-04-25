@@ -1,12 +1,19 @@
 // Sass partial
 
+// fixes arrow in DateRangePicker
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;   // gets us to a base 10 system for calculating rems
 }
 
 body {
+    color: $dark-grey;
     font-family: Helvetica, Arial, sans-serif;
     font-size: $medium-size;
+    line-height: 1.6;
 }
 
 button {

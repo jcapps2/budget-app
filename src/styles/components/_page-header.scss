@@ -1,0 +1,19 @@
+// Sass partial
+
+.page-header {
+    background: $off-white;
+    margin-bottom: $large-size;
+    padding: $large-size;
+
+    &__actions {
+        margin-top: $medium-size;
+    }
+
+    &__title {
+        font-weight: 300;
+        margin: 0;
+        span {
+            font-weight: 700;
+        }
+    }
+}

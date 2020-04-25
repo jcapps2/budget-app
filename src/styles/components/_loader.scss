@@ -1,0 +1,14 @@
+// Sass partial
+
+.loader {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+
+    &__image {
+        height: 10rem;
+        width: 10rem;
+    }
+}
